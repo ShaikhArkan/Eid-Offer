@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eid-ul-Adha Offer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f3f4f6;
+      color: #333;
+      line-height: 1.6;
+    }
+    .header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    .header h1 {
+      font-size: 2em;
+    }
+    .timer {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #ffffff22;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+    .section {
+      background: white;
+      margin: 20px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      max-width: 900px;
+    }
+    .section h2 {
+      text-align: center;
+      color: #4c1d95;
+      margin-bottom: 15px;
+    }
+    .note {
+      background: #fef9c3;
+      border-left: 5px solid orange;
+      padding: 10px;
+      margin: 15px 0;
+      border-radius: 8px;
+    }
+    .btn-instagram {
+      background: #7c3aed;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      display: inline-block;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .products, .upcoming {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .product-card {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product-card h3 {
+      margin: 10px 0 5px;
+    }
+    .product-card p {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 5px 5px 0 0;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+    .btn-demo { background: #6366f1; color: white; }
+    .btn-buy { background: #10b981; color: white; }
+    .coming-soon {
+      background: #f3f4f6;
+      font-weight: bold;
+      color: #d97706;
+      padding: 3px 8px;
+      border-radius: 8px;
+      font-size: 0.8em;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    /* CTA section */
+    .cta {
+      background: linear-gradient(180deg, #6a11cb, #8e2de2);
+      color: white;
+      text-align: center;
+      border: 2px solid #ffffff33;
+      padding: 40px 20px;
+      border-radius: 15px;
+      margin: 20px auto;
+      max-width: 900px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: white;
+      color: #6a11cb;
+      font-weight: bold;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Offer of Eid-ul-Adha</h1>
+    <p>Created by Vantage Development</p>
+    <div class="timer" id="timer">Loading...</div>
+  </div>
+
+  <div class="section">
+    <h2>Welcome to our Eid-ul-Adha special store!</h2>
+    <p style="text-align:center; font-size:1.2em;">All products are priced at <strong style="color:purple;">0 Rs!</strong></p>
+    <div class="note">
+      <strong>✨ Note:</strong> If you want future projects for free, make sure to follow us on Instagram. All projects remain free for 1 day only!
+    </div>
+    <div style="text-align:center;">
+      <a class="btn-instagram" href="https://www.instagram.com/sk__arkan.007" target="_blank">📷 Follow Us on Instagram</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📦 Featured Products</h2>
+    <p style="text-align:center;">Premium projects available for free — but only for 1 day!</p>
+    <div class="products">
+      <div class="product-card">
+        <h3>1️⃣ Real AI</h3>
+        <p>A smart AI assistant for all your needs.</p>
+        <a class="btn btn-demo" href="https://shaikharkan.github.io/Real-AI/" target="_blank">👁️ Live Demo</a>
+        <a class="btn btn-buy" href="https://github.com/ShaikhArkan/RealAI" target="_blank">➕ Buy for Free</a>
+      </div>
+      <div class="product-card">
+        <h3>2️⃣ Doctor AI</h3>
+        <p>Your personal AI doctor, just a click away.</p>
+        <a class="btn btn-demo" href="https://shaikharkan.github.io/Doctor-AI/" target="_blank">👁️ Live Demo</a>
+        <a class="btn btn-buy" href="https://github.com/ShaikhArkan/Doctor-AI" target="_blank">➕ Buy for Free</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🆕 Upcoming Products</h2>
+    <div class="upcoming">
+      <div class="product-card">
+        <div class="coming-soon">Coming Soon</div>
+        <h3>📚 Study Buddy</h3>
+        <p>Your AI-powered study assistant to help you learn more effectively.</p>
+      </div>
+      <div class="product-card">
+        <div class="coming-soon">Coming Soon</div>
+        <h3>💬 Chat App</h3>
+        <p>A secure and feature-rich messaging platform for seamless communication.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action Section -->
+  <div class="cta">
+    <h2>🚀 Want your own Website or App?</h2>
+    <p>We create custom solutions tailored to your needs.</p>
+    <p style="margin-top: 10px;">📧 Email us at: 
+      <a href="mailto:shaikharkan2010@gmail.com" style="color: #fff; text-decoration: underline;">
+        shaikharkan2010@gmail.com
+      </a>
+    </p>
+    <a href="mailto:shaikharkan2010@gmail.com">Contact Us Now</a>
+  </div>
+
+  <script>
+    function startTimer(duration) {
+      let timer = duration, hours, minutes, seconds;
+      setInterval(function () {
+        hours = parseInt(timer / 3600, 10);
+        minutes = parseInt((timer % 3600) / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        hours = hours < 10 ? "0" + hours : hours;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        document.getElementById('timer').textContent = hours + ":" + minutes + ":" + seconds;
+
+        if (--timer < 0) {
+          timer = 0;
+        }
+      }, 1000);
+    }
+
+    window.onload = function () {
+      const countdownSeconds = 15 * 3600 + 16 * 60 + 33;
+      startTimer(countdownSeconds);
+    };
+  </script>
+</body>
+</html>
